@@ -14,4 +14,5 @@ Se le puede indicar el idioma, con inglés: idioma='en'
 Y solo la imagen:
 
 cita-diaria imagen
+
 cita-diaria imagen idioma='en'
