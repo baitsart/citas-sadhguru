@@ -1,0 +1,2 @@
+#!/bin/bash
+cita-diaria fecha="$(LC_TIME=C date -d "@$(shuf -i $(date -d '2022-01-01' +%s)-$(date +%s) -n1)" "+%B-%d-%Y" | tr '[:upper:]' '[:lower:]')"
